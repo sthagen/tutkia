@@ -1,0 +1,13 @@
+---
+packages:
+- certifi
+- charset-normalizer
+- deprecated
+- idna
+- oauthlib
+- requests
+- requests-oauthlib
+- six
+- urllib3
+- wrapt
+
