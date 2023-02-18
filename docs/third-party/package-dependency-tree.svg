@@ -1,0 +1,26 @@
+flowchart TD
+    classDef missing stroke-dasharray: 5
+    atlassian-python-api[atlassian-python-api\n3.33.0]
+    certifi[certifi\n2022.12.7]
+    charset-normalizer[charset-normalizer\n3.0.1]
+    deprecated[Deprecated\n1.2.13]
+    idna[idna\n3.4]
+    msgspec[msgspec\n0.13.1]
+    oauthlib[oauthlib\n3.2.2]
+    requests-oauthlib[requests-oauthlib\n1.3.1]
+    requests[requests\n2.28.2]
+    six[six\n1.16.0]
+    urllib3[urllib3\n1.26.14]
+    wrapt[wrapt\n1.14.1]
+    atlassian-python-api -- any --> deprecated
+    atlassian-python-api -- any --> oauthlib
+    atlassian-python-api -- any --> requests
+    atlassian-python-api -- any --> requests-oauthlib
+    atlassian-python-api -- any --> six
+    deprecated -- >=1.10,<2 --> wrapt
+    requests -- >=1.21.1,<1.27 --> urllib3
+    requests -- >=2,<4 --> charset-normalizer
+    requests -- >=2.5,<4 --> idna
+    requests -- >=2017.4.17 --> certifi
+    requests-oauthlib -- >=2.0.0 --> requests
+    requests-oauthlib -- >=3.0.0 --> oauthlib
