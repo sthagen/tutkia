@@ -1,0 +1,82 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.4.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
+  "serialNumber": "urn:uuid:ed97b87d-10e8-4b5f-87ed-13e794d0784f",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2023-02-18T18:19:07.813225+00:00",
+    "tools": [
+      {
+        "vendor": "CycloneDX",
+        "name": "cyclonedx-bom",
+        "version": "3.11.0"
+      },
+      {
+        "vendor": "CycloneDX",
+        "name": "cyclonedx-python-lib",
+        "version": "3.1.5",
+        "externalReferences": [
+          {
+            "url": "https://github.com/CycloneDX/cyclonedx-python-lib/actions",
+            "type": "build-system"
+          },
+          {
+            "url": "https://pypi.org/project/cyclonedx-python-lib/",
+            "type": "distribution"
+          },
+          {
+            "url": "https://cyclonedx.github.io/cyclonedx-python-lib/",
+            "type": "documentation"
+          },
+          {
+            "url": "https://github.com/CycloneDX/cyclonedx-python-lib/issues",
+            "type": "issue-tracker"
+          },
+          {
+            "url": "https://github.com/CycloneDX/cyclonedx-python-lib/blob/main/LICENSE",
+            "type": "license"
+          },
+          {
+            "url": "https://github.com/CycloneDX/cyclonedx-python-lib/blob/main/CHANGELOG.md",
+            "type": "release-notes"
+          },
+          {
+            "url": "https://github.com/CycloneDX/cyclonedx-python-lib",
+            "type": "vcs"
+          },
+          {
+            "url": "https://cyclonedx.org",
+            "type": "website"
+          }
+        ]
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "library",
+      "bom-ref": "0e64befb-0d57-4712-b138-f9709e2cbadd",
+      "name": "atlassian-python-api",
+      "version": "3.33.0",
+      "purl": "pkg:pypi/atlassian-python-api@3.33.0"
+    },
+    {
+      "type": "library",
+      "bom-ref": "9d256555-3e2f-4cc6-aadb-372230920dac",
+      "name": "msgspec",
+      "version": "0.13.1",
+      "purl": "pkg:pypi/msgspec@0.13.1"
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "0e64befb-0d57-4712-b138-f9709e2cbadd",
+      "dependsOn": []
+    },
+    {
+      "ref": "9d256555-3e2f-4cc6-aadb-372230920dac",
+      "dependsOn": []
+    }
+  ]
+}
