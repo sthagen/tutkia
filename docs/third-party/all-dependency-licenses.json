@@ -48,7 +48,7 @@
     "Version": "3.0.1"
   },
   {
-    "Author": "UNKNOWN",
+    "Author": "Kim Davies <kim@cynosure.com.au>",
     "Description": "Internationalized Domain Names in Applications (IDNA)",
     "License": "BSD License",
     "LicenseFile": "/Users/ruth/.pyenv/versions/3.10.9/envs/tutkia-3-10-9/lib/python3.10/site-packages/idna-3.4.dist-info/LICENSE.md",
@@ -56,7 +56,7 @@
     "Name": "idna",
     "NoticeFile": "UNKNOWN",
     "NoticeText": "UNKNOWN",
-    "URL": "UNKNOWN",
+    "URL": "https://github.com/kjd/idna",
     "Version": "3.4"
   },
   {

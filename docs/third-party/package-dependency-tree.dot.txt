@@ -1,26 +1,26 @@
-flowchart TD
-    classDef missing stroke-dasharray: 5
-    atlassian-python-api[atlassian-python-api\n3.33.0]
-    certifi[certifi\n2022.12.7]
-    charset-normalizer[charset-normalizer\n3.0.1]
-    deprecated[Deprecated\n1.2.13]
-    idna[idna\n3.4]
-    msgspec[msgspec\n0.13.1]
-    oauthlib[oauthlib\n3.2.2]
-    requests-oauthlib[requests-oauthlib\n1.3.1]
-    requests[requests\n2.28.2]
-    six[six\n1.16.0]
-    urllib3[urllib3\n1.26.14]
-    wrapt[wrapt\n1.14.1]
-    atlassian-python-api -- any --> deprecated
-    atlassian-python-api -- any --> oauthlib
-    atlassian-python-api -- any --> requests
-    atlassian-python-api -- any --> requests-oauthlib
-    atlassian-python-api -- any --> six
-    deprecated -- >=1.10,<2 --> wrapt
-    requests -- >=1.21.1,<1.27 --> urllib3
-    requests -- >=2,<4 --> charset-normalizer
-    requests -- >=2.5,<4 --> idna
-    requests -- >=2017.4.17 --> certifi
-    requests-oauthlib -- >=2.0.0 --> requests
-    requests-oauthlib -- >=3.0.0 --> oauthlib
+digraph {
+	"atlassian-python-api" -> "requests-oauthlib" [label=any]
+	"atlassian-python-api" -> deprecated [label=any]
+	"atlassian-python-api" -> oauthlib [label=any]
+	"atlassian-python-api" -> requests [label=any]
+	"atlassian-python-api" -> six [label=any]
+	"atlassian-python-api" [label="atlassian-python-api\n3.33.0"]
+	"charset-normalizer" [label="charset-normalizer\n3.0.1"]
+	"requests-oauthlib" -> oauthlib [label=">=3.0.0"]
+	"requests-oauthlib" -> requests [label=">=2.0.0"]
+	"requests-oauthlib" [label="requests-oauthlib\n1.3.1"]
+	certifi [label="certifi\n2022.12.7"]
+	deprecated -> wrapt [label=">=1.10,<2"]
+	deprecated [label="Deprecated\n1.2.13"]
+	idna [label="idna\n3.4"]
+	msgspec [label="msgspec\n0.13.1"]
+	oauthlib [label="oauthlib\n3.2.2"]
+	requests -> "charset-normalizer" [label=">=2,<4"]
+	requests -> certifi [label=">=2017.4.17"]
+	requests -> idna [label=">=2.5,<4"]
+	requests -> urllib3 [label=">=1.21.1,<1.27"]
+	requests [label="requests\n2.28.2"]
+	six [label="six\n1.16.0"]
+	urllib3 [label="urllib3\n1.26.14"]
+	wrapt [label="wrapt\n1.14.1"]
+}
