@@ -11,6 +11,7 @@ Third party dependencies are documented in the folder [third-party](docs/third-p
 [![wheel](https://img.shields.io/pypi/wheel/tutkia.svg?style=flat)](https://pypi.python.org/pypi/tutkia/)
 [![supported-versions](https://img.shields.io/pypi/pyversions/tutkia.svg?style=flat)](https://pypi.python.org/pypi/tutkia/)
 [![supported-implementations](https://img.shields.io/pypi/implementation/tutkia.svg?style=flat)](https://pypi.python.org/pypi/tutkia/)
+[![maintenance-status](https://img.shields.io/github/commit-activity/y/sthagen/tutkia.svg?style=flat)](https://git.sr.ht/~sthagen/tutkia/log)
 
 ## Bug Tracker
 
