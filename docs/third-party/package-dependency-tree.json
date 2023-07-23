@@ -2,8 +2,8 @@
     {
         "key": "atlassian-python-api",
         "package_name": "atlassian-python-api",
-        "installed_version": "3.33.0",
-        "required_version": "3.33.0",
+        "installed_version": "3.39.0",
+        "required_version": "3.39.0",
         "dependencies": [
             {
                 "key": "deprecated",
@@ -30,7 +30,7 @@
             {
                 "key": "requests",
                 "package_name": "requests",
-                "installed_version": "2.28.2",
+                "installed_version": "2.31.0",
                 "required_version": "Any",
                 "dependencies": [
                     {
@@ -58,7 +58,7 @@
                         "key": "urllib3",
                         "package_name": "urllib3",
                         "installed_version": "1.26.14",
-                        "required_version": ">=1.21.1,<1.27",
+                        "required_version": ">=1.21.1,<3",
                         "dependencies": []
                     }
                 ]
@@ -79,7 +79,7 @@
                     {
                         "key": "requests",
                         "package_name": "requests",
-                        "installed_version": "2.28.2",
+                        "installed_version": "2.31.0",
                         "required_version": ">=2.0.0",
                         "dependencies": [
                             {
@@ -107,7 +107,7 @@
                                 "key": "urllib3",
                                 "package_name": "urllib3",
                                 "installed_version": "1.26.14",
-                                "required_version": ">=1.21.1,<1.27",
+                                "required_version": ">=1.21.1,<3",
                                 "dependencies": []
                             }
                         ]
@@ -126,8 +126,8 @@
     {
         "key": "msgspec",
         "package_name": "msgspec",
-        "installed_version": "0.13.1",
-        "required_version": "0.13.1",
+        "installed_version": "0.17.0",
+        "required_version": "0.17.0",
         "dependencies": []
     }
 ]
