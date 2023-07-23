@@ -1,5 +1,7 @@
 site_name: Tutkia
 site_description: "Explore (Finnish: tutkia) ticket system trees."
+docs_dir: ../docs
+site_dir: ../site
 
 theme:
   name: 'material'
