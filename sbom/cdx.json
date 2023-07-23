@@ -2,15 +2,15 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.4.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.4",
-  "serialNumber": "urn:uuid:6ba1534f-d33a-43e6-a324-80a54875bfb6",
+  "serialNumber": "urn:uuid:c05e28ac-64b7-4048-a9bc-b85778e2c0e5",
   "version": 1,
   "metadata": {
-    "timestamp": "2023-06-24T20:44:27.476527+00:00",
+    "timestamp": "2023-07-23T15:54:35.114698+00:00",
     "tools": [
       {
         "vendor": "CycloneDX",
         "name": "cyclonedx-bom",
-        "version": "3.11.0"
+        "version": "3.11.2"
       },
       {
         "vendor": "CycloneDX",
@@ -56,26 +56,26 @@
   "components": [
     {
       "type": "library",
-      "bom-ref": "39c516d6-ee9c-4ee2-a37d-d571bc129f51",
+      "bom-ref": "930ae4e5-3cb7-4ca8-bd33-861a766adb7a",
       "name": "atlassian-python-api",
-      "version": "3.33.0",
-      "purl": "pkg:pypi/atlassian-python-api@3.33.0"
+      "version": "3.39.0",
+      "purl": "pkg:pypi/atlassian-python-api@3.39.0"
     },
     {
       "type": "library",
-      "bom-ref": "67c2bb85-ed10-47a1-bcb8-2a3dc6404cc6",
+      "bom-ref": "9c8f8daf-17a5-491c-934f-cf651f8af0f3",
       "name": "msgspec",
-      "version": "0.13.1",
-      "purl": "pkg:pypi/msgspec@0.13.1"
+      "version": "0.17.0",
+      "purl": "pkg:pypi/msgspec@0.17.0"
     }
   ],
   "dependencies": [
     {
-      "ref": "39c516d6-ee9c-4ee2-a37d-d571bc129f51",
+      "ref": "930ae4e5-3cb7-4ca8-bd33-861a766adb7a",
       "dependsOn": []
     },
     {
-      "ref": "67c2bb85-ed10-47a1-bcb8-2a3dc6404cc6",
+      "ref": "9c8f8daf-17a5-491c-934f-cf651f8af0f3",
       "dependsOn": []
     }
   ]
