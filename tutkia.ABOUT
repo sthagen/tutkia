@@ -1,0 +1,14 @@
+name: tutkia
+description: Explore (Finnish: tutkia) ticket system trees.
+license_spdx: MIT
+version: 2023.2.18
+spec_version: 1.0
+home_url: https://git.sr.ht/~sthagen/tutkia
+news_url: https://libraries.io/pypi/tutkia/versions.atom
+date: 2023-02-18
+about_resource: ./
+libraries_io_url: https://libraries.io/pypi/tutkia?number=2023.2.18
+vcs_tool: git
+vcs_repository: https://git.sr.ht/~sthagen/tutkia
+vcs_branch: default
+
