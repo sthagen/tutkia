@@ -4,7 +4,7 @@ import inspect
 import os
 from typing import Union, no_type_check
 
-from atlassian import Jira
+from atlassian import Jira  # type: ignore
 from tutkia import (
     APP_ALIAS,
     APP_NAME,
@@ -28,6 +28,7 @@ CONN_USER = os.getenv(f'{APP_ALIAS}_USER', '')
 CONN_TOKEN = os.getenv(f'{APP_ALIAS}_TOKEN', '')
 
 
+@no_type_check
 def extract(per, seq, slot: int):
     """Extract per functors from sequence at slot."""
     return [[extractor.__name__, extractor(seq[slot][FIELDS])] for extractor in per]
@@ -52,6 +53,7 @@ CF = {
 FNI = inspect.currentframe
 
 
+@no_type_check
 def unwrap(d, sk, default: Union[int, str] = NONE, pk=None):
     if pk is None:
         pk = FNI().f_back.f_code.co_name
@@ -61,102 +63,127 @@ def unwrap(d, sk, default: Union[int, str] = NONE, pk=None):
     return data.get(sk, default) if d[pk] else default
 
 
+@no_type_check
 def summary(d):
     return d[FNI().f_code.co_name]
 
 
+@no_type_check
 def issuetype(d):
     return unwrap(d, NAME)
 
 
+@no_type_check
 def priority(d):
     return unwrap(d, NAME)
 
 
+@no_type_check
 def status(d):
     return unwrap(d, NAME)
 
 
+@no_type_check
 def resolution(d):
     return unwrap(d, NAME)
 
 
+@no_type_check
 def reporter(d):
     return unwrap(d, NAME)
 
 
+@no_type_check
 def assignee(d):
     return unwrap(d, NAME)
 
 
+@no_type_check
 def department(d):
     return unwrap(d, VALUE, pk=CF['Department'])
 
 
+@no_type_check
 def org_eng_service(d):
     return unwrap(d, VALUE, pk=CF['ORG Engineering Service'])
 
 
+@no_type_check
 def life_cycle_stage(d):
     return unwrap(d, VALUE, pk=CF['Lifecycle Stage'])
 
 
+@no_type_check
 def org_customer(d):
     return unwrap(d, VALUE, pk=CF['ORG customers'])
 
 
+@no_type_check
 def customer_project_code(d):
     return d.get(CF['Customer Project Code'], NONE)
 
 
+@no_type_check
 def org_product(d):
     return unwrap(d, VALUE, pk=CF['ORG Product'])
 
 
+@no_type_check
 def created(d):
     return d[FNI().f_code.co_name]
 
 
+@no_type_check
 def start_date(d):
     return d.get(CF['Start date'], NONE)
 
 
+@no_type_check
 def updated(d):
     return d[FNI().f_code.co_name]
 
 
+@no_type_check
 def due_date(d):
     return d.get('duedate', NONE)
 
 
+@no_type_check
 def aggregateprogress(d):
     return unwrap(d, PERCENT)
 
 
+@no_type_check
 def labels(d):
     return d[FNI().f_code.co_name]
 
 
+@no_type_check
 def aggregatetimeoriginalestimate(d):
     return d[FNI().f_code.co_name]
 
 
+@no_type_check
 def timeoriginalestimate(d):
     return d[FNI().f_code.co_name]
 
 
+@no_type_check
 def timeestimate(d):
     return d[FNI().f_code.co_name]
 
 
+@no_type_check
 def original_estimate_seconds(d):
     return unwrap(d, 'originalEstimateSeconds', default=0, pk='timetracking')
 
 
+@no_type_check
 def remaining_estimate_seconds(d):
     return unwrap(d, 'remainingEstimateSeconds', default=0, pk='timetracking')
 
 
+@no_type_check
 def time_spent_seconds(d):
     return unwrap(d, 'timeSpentSeconds', default=0, pk='timetracking')
 
