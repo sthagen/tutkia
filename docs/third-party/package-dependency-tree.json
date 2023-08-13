@@ -2,19 +2,19 @@
     {
         "key": "atlassian-python-api",
         "package_name": "atlassian-python-api",
-        "installed_version": "3.39.0",
-        "required_version": "3.39.0",
+        "installed_version": "3.40.1",
+        "required_version": "3.40.1",
         "dependencies": [
             {
                 "key": "deprecated",
                 "package_name": "Deprecated",
-                "installed_version": "1.2.13",
+                "installed_version": "1.2.14",
                 "required_version": "Any",
                 "dependencies": [
                     {
                         "key": "wrapt",
                         "package_name": "wrapt",
-                        "installed_version": "1.14.1",
+                        "installed_version": "1.15.0",
                         "required_version": ">=1.10,<2",
                         "dependencies": []
                     }
@@ -36,14 +36,14 @@
                     {
                         "key": "certifi",
                         "package_name": "certifi",
-                        "installed_version": "2022.12.7",
+                        "installed_version": "2023.7.22",
                         "required_version": ">=2017.4.17",
                         "dependencies": []
                     },
                     {
                         "key": "charset-normalizer",
                         "package_name": "charset-normalizer",
-                        "installed_version": "3.0.1",
+                        "installed_version": "3.2.0",
                         "required_version": ">=2,<4",
                         "dependencies": []
                     },
@@ -57,7 +57,7 @@
                     {
                         "key": "urllib3",
                         "package_name": "urllib3",
-                        "installed_version": "1.26.14",
+                        "installed_version": "2.0.4",
                         "required_version": ">=1.21.1,<3",
                         "dependencies": []
                     }
@@ -85,14 +85,14 @@
                             {
                                 "key": "certifi",
                                 "package_name": "certifi",
-                                "installed_version": "2022.12.7",
+                                "installed_version": "2023.7.22",
                                 "required_version": ">=2017.4.17",
                                 "dependencies": []
                             },
                             {
                                 "key": "charset-normalizer",
                                 "package_name": "charset-normalizer",
-                                "installed_version": "3.0.1",
+                                "installed_version": "3.2.0",
                                 "required_version": ">=2,<4",
                                 "dependencies": []
                             },
@@ -106,7 +106,7 @@
                             {
                                 "key": "urllib3",
                                 "package_name": "urllib3",
-                                "installed_version": "1.26.14",
+                                "installed_version": "2.0.4",
                                 "required_version": ">=1.21.1,<3",
                                 "dependencies": []
                             }
@@ -126,8 +126,8 @@
     {
         "key": "msgspec",
         "package_name": "msgspec",
-        "installed_version": "0.17.0",
-        "required_version": "0.17.0",
+        "installed_version": "0.18.0",
+        "required_version": "0.18.0",
         "dependencies": []
     }
 ]
