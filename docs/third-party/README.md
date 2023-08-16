@@ -1,8 +1,8 @@
 # Third Party Dependencies
 
 <!--[[[fill sbom_sha256()]]]-->
-The [SBOM in CycloneDX v1.4 JSON format](https://git.sr.ht/~sthagen/tutkia/blob/default/sbom/cdx.json) with SHA256 checksum ([b1d45d26 ...](https://git.sr.ht/~sthagen/tutkia/blob/default/sbom/cdx.json.sha256 "sha256:b1d45d264dcdcd997204de2a4dcf0c7142f880b244d5a7fb65d0fa402d56abf3")).
-<!--[[[end]]] (checksum: 98a2783d68465639d01424f27b364fdf)-->
+The [SBOM in CycloneDX v1.4 JSON format](https://git.sr.ht/~sthagen/tutkia/blob/default/sbom/cdx.json) with SHA256 checksum ([b21295c6 ...](https://git.sr.ht/~sthagen/tutkia/blob/default/sbom/cdx.json.sha256 "sha256:b21295c6d3cf5f0e1217d7ee183ff30d7db62d1d2f3011c6793ae5412f4928bf")).
+<!--[[[end]]] (checksum: 3a60e13835e9a735c2d1a568c593586c)-->
 ## Licenses 
 
 JSON files with complete license info of: [direct dependencies](direct-dependency-licenses.json) | [all dependencies](all-dependency-licenses.json)
@@ -13,8 +13,8 @@ JSON files with complete license info of: [direct dependencies](direct-dependenc
 | Name                                                                          | Version                                                         | License                 | Author           | Description (from packaging data)                                                                        |
 |:------------------------------------------------------------------------------|:----------------------------------------------------------------|:------------------------|:-----------------|:---------------------------------------------------------------------------------------------------------|
 | [atlassian-python-api](https://github.com/atlassian-api/atlassian-python-api) | [3.40.1](https://pypi.org/project/atlassian-python-api/3.40.1/) | Apache Software License | Matt Harasymczuk | Python Atlassian REST API Wrapper                                                                        |
-| [msgspec](https://jcristharif.com/msgspec/)                                   | [0.18.0](https://pypi.org/project/msgspec/0.18.0/)              | BSD License             | Jim Crist-Harif  | A fast serialization and validation library, with builtin support for JSON, MessagePack, YAML, and TOML. |
-<!--[[[end]]] (checksum: 2d9c413de3dfaa3f5312719bb6cf0331)-->
+| [msgspec](https://jcristharif.com/msgspec/)                                   | [0.18.1](https://pypi.org/project/msgspec/0.18.1/)              | BSD License             | Jim Crist-Harif  | A fast serialization and validation library, with builtin support for JSON, MessagePack, YAML, and TOML. |
+<!--[[[end]]] (checksum: 01575f7262279a46f4af2261cf439486)-->
 
 ### Indirect Dependencies
 
@@ -64,6 +64,6 @@ atlassian-python-api==3.40.1
 │       ├── idna [required: >=2.5,<4, installed: 3.4]
 │       └── urllib3 [required: >=1.21.1,<3, installed: 2.0.4]
 └── six [required: Any, installed: 1.16.0]
-msgspec==0.18.0
+msgspec==0.18.1
 ````
-<!--[[[end]]] (checksum: 84b3058b96ae09885ce6ca3cc708f0cc)-->
+<!--[[[end]]] (checksum: 6ac5ba1d8ec4ac5c93ebf892710add5f)-->

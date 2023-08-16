@@ -13,7 +13,7 @@ digraph {
 	deprecated -> wrapt [label=">=1.10,<2"]
 	deprecated [label="Deprecated\n1.2.14"]
 	idna [label="idna\n3.4"]
-	msgspec [label="msgspec\n0.18.0"]
+	msgspec [label="msgspec\n0.18.1"]
 	oauthlib [label="oauthlib\n3.2.2"]
 	requests -> "charset-normalizer" [label=">=2,<4"]
 	requests -> certifi [label=">=2017.4.17"]
