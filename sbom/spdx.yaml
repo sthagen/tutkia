@@ -3,7 +3,7 @@ SPDXID: "SPDXRef-DOCUMENT"
 spdxVersion: "SPDX-2.3"
 creationInfo:
   comment: "Converted from CycloneDX spec version 1.4"
-  created: "2023-08-16T06:51:21Z"
+  created: "2023-08-16T15:30:26Z"
   creators:
   - "Tool: CycloneDX:cyclonedx-bom-3.11.2"
   - "Tool: CycloneDX:cyclonedx-python-lib-3.1.5"
@@ -12,15 +12,15 @@ creationInfo:
 name: "From-Cyclone-DX"
 dataLicense: "CC0-1.0"
 annotations:
-- annotationDate: "2023-08-16T06:51:23Z"
+- annotationDate: "2023-08-16T15:30:32Z"
   annotationType: "OTHER"
   annotator: "Tool: CycloneToSpdx"
   comment: "MISSING_CDX_PROPERTY:extensions={}"
-documentNamespace: "https://cyclonedx/21d130e6-7540-4748-b2d1-84a87d5b7fc7_1"
+documentNamespace: "https://cyclonedx/5dad1bc1-ddee-44f1-a7a9-447d50413138_1"
 packages:
-- SPDXID: "SPDXRef-845f9515-9e06-4f78-b752-a4ff1938fbd1"
+- SPDXID: "SPDXRef-08f581c4-c4aa-406b-b021-94c7987becc4"
   annotations:
-  - annotationDate: "2023-08-16T06:51:23Z"
+  - annotationDate: "2023-08-16T15:30:32Z"
     annotationType: "OTHER"
     annotator: "Tool: CycloneToSpdx"
     comment: "MISSING_CDX_PROPERTY:componentType=\"LIBRARY\""
@@ -36,9 +36,9 @@ packages:
   name: "atlassian-python-api"
   primaryPackagePurpose: "LIBRARY"
   versionInfo: "3.40.1"
-- SPDXID: "SPDXRef-59163cf5-67dd-42bd-8276-a22fa53c06f6"
+- SPDXID: "SPDXRef-228a29f7-caf1-47ce-8aa9-e15136453956"
   annotations:
-  - annotationDate: "2023-08-16T06:51:23Z"
+  - annotationDate: "2023-08-16T15:30:32Z"
     annotationType: "OTHER"
     annotator: "Tool: CycloneToSpdx"
     comment: "MISSING_CDX_PROPERTY:componentType=\"LIBRARY\""
@@ -46,18 +46,18 @@ packages:
   downloadLocation: "NOASSERTION"
   externalRefs:
   - referenceCategory: "PACKAGE-MANAGER"
-    referenceLocator: "pkg:pypi/msgspec@0.18.0"
+    referenceLocator: "pkg:pypi/msgspec@0.18.1"
     referenceType: "purl"
   filesAnalyzed: false
   licenseConcluded: "NOASSERTION"
   licenseDeclared: "NOASSERTION"
   name: "msgspec"
   primaryPackagePurpose: "LIBRARY"
-  versionInfo: "0.18.0"
+  versionInfo: "0.18.1"
 relationships:
 - spdxElementId: "SPDXRef-DOCUMENT"
   relationshipType: "DESCRIBES"
-  relatedSpdxElement: "SPDXRef-59163cf5-67dd-42bd-8276-a22fa53c06f6"
+  relatedSpdxElement: "SPDXRef-228a29f7-caf1-47ce-8aa9-e15136453956"
 - spdxElementId: "SPDXRef-DOCUMENT"
   relationshipType: "DESCRIBES"
-  relatedSpdxElement: "SPDXRef-845f9515-9e06-4f78-b752-a4ff1938fbd1"
+  relatedSpdxElement: "SPDXRef-08f581c4-c4aa-406b-b021-94c7987becc4"
