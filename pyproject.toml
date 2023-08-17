@@ -24,7 +24,7 @@ classifiers = [
 ]
 keywords = ["developer-tools", "devops"]
 dependencies = [
-    "atlassian-python-api >= 3.40.1",
+    "atlassian-python-api >= 3.41.0",
     "msgspec >= 0.18.1",
 ]
 requires-python = ">=3.9"
