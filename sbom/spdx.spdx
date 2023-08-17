@@ -1,6 +1,6 @@
 SPDXVersion: SPDX-2.3
 DataLicense: CC0-1.0
-DocumentNamespace: https://cyclonedx/5dad1bc1-ddee-44f1-a7a9-447d50413138_1
+DocumentNamespace: https://cyclonedx/7ad1ca34-d1a8-441c-9af7-24c0818f07c9_1
 DocumentName: From-Cyclone-DX
 SPDXID: SPDXRef-DOCUMENT
 
@@ -8,40 +8,40 @@ SPDXID: SPDXRef-DOCUMENT
 Creator: Tool: CycloneDX:cyclonedx-bom-3.11.2
 Creator: Tool: CycloneDX:cyclonedx-python-lib-3.1.5
 Creator: Tool: CycloneToSpdx-0.1.4
-Created: 2023-08-16T15:30:26Z
+Created: 2023-08-17T09:25:39Z
 CreatorComment: <text>Converted from CycloneDX spec version 1.4</text>
 LicenseListVersion: 3.21
 ## Annotations
 Annotator: Tool: CycloneToSpdx
-AnnotationDate: 2023-08-16T15:30:30Z
+AnnotationDate: 2023-08-17T09:25:40Z
 AnnotationComment: <text>MISSING_CDX_PROPERTY:extensions={}</text>
 AnnotationType: OTHER
 SPDXREF: SPDXRef-DOCUMENT
 ## Relationships
-Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-08f581c4-c4aa-406b-b021-94c7987becc4
-Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-228a29f7-caf1-47ce-8aa9-e15136453956
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-8a51a481-6c49-4446-9b04-b367a3d199dc
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-ad14459a-dd73-4f60-893a-5a9618a6d6c2
 
 ## Package Information
 PackageName: atlassian-python-api
-SPDXID: SPDXRef-08f581c4-c4aa-406b-b021-94c7987becc4
-PackageVersion: 3.40.1
+SPDXID: SPDXRef-8a51a481-6c49-4446-9b04-b367a3d199dc
+PackageVersion: 3.41.0
 PackageDownloadLocation: NOASSERTION
 PrimaryPackagePurpose: LIBRARY
 PackageLicenseConcluded: NOASSERTION
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-ExternalRef: PACKAGE-MANAGER purl pkg:pypi/atlassian-python-api@3.40.1
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/atlassian-python-api@3.41.0
 ## Annotations
 Annotator: Tool: CycloneToSpdx
-AnnotationDate: 2023-08-16T15:30:30Z
+AnnotationDate: 2023-08-17T09:25:40Z
 AnnotationComment: <text>MISSING_CDX_PROPERTY:componentType="LIBRARY"</text>
 AnnotationType: OTHER
-SPDXREF: SPDXRef-08f581c4-c4aa-406b-b021-94c7987becc4
+SPDXREF: SPDXRef-8a51a481-6c49-4446-9b04-b367a3d199dc
 FilesAnalyzed: false
 
 ## Package Information
 PackageName: msgspec
-SPDXID: SPDXRef-228a29f7-caf1-47ce-8aa9-e15136453956
+SPDXID: SPDXRef-ad14459a-dd73-4f60-893a-5a9618a6d6c2
 PackageVersion: 0.18.1
 PackageDownloadLocation: NOASSERTION
 PrimaryPackagePurpose: LIBRARY
@@ -51,10 +51,10 @@ PackageCopyrightText: NOASSERTION
 ExternalRef: PACKAGE-MANAGER purl pkg:pypi/msgspec@0.18.1
 ## Annotations
 Annotator: Tool: CycloneToSpdx
-AnnotationDate: 2023-08-16T15:30:30Z
+AnnotationDate: 2023-08-17T09:25:40Z
 AnnotationComment: <text>MISSING_CDX_PROPERTY:componentType="LIBRARY"</text>
 AnnotationType: OTHER
-SPDXREF: SPDXRef-228a29f7-caf1-47ce-8aa9-e15136453956
+SPDXREF: SPDXRef-ad14459a-dd73-4f60-893a-5a9618a6d6c2
 FilesAnalyzed: false
 
 
