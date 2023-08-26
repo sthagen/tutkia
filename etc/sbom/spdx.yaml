@@ -3,7 +3,7 @@ SPDXID: "SPDXRef-DOCUMENT"
 spdxVersion: "SPDX-2.3"
 creationInfo:
   comment: "Converted from CycloneDX spec version 1.4"
-  created: "2023-08-22T19:35:35Z"
+  created: "2023-08-26T23:30:26Z"
   creators:
   - "Tool: CycloneDX:cyclonedx-bom-3.11.2"
   - "Tool: CycloneDX:cyclonedx-python-lib-3.1.5"
@@ -12,15 +12,15 @@ creationInfo:
 name: "From-Cyclone-DX"
 dataLicense: "CC0-1.0"
 annotations:
-- annotationDate: "2023-08-22T19:35:38Z"
+- annotationDate: "2023-08-26T23:30:29Z"
   annotationType: "OTHER"
   annotator: "Tool: CycloneToSpdx"
   comment: "MISSING_CDX_PROPERTY:extensions={}"
-documentNamespace: "https://cyclonedx/0b4fe823-e2e8-4152-98e1-683299752853_1"
+documentNamespace: "https://cyclonedx/0f12a5ef-1996-45f3-acd8-66de3407d4fd_1"
 packages:
-- SPDXID: "SPDXRef-2119c96d-69f5-42c9-9d21-7e38d7b44f69"
+- SPDXID: "SPDXRef-0de0e031-9914-4cfb-a669-3a75c7c26a87"
   annotations:
-  - annotationDate: "2023-08-22T19:35:38Z"
+  - annotationDate: "2023-08-26T23:30:29Z"
     annotationType: "OTHER"
     annotator: "Tool: CycloneToSpdx"
     comment: "MISSING_CDX_PROPERTY:componentType=\"LIBRARY\""
@@ -28,17 +28,17 @@ packages:
   downloadLocation: "NOASSERTION"
   externalRefs:
   - referenceCategory: "PACKAGE-MANAGER"
-    referenceLocator: "pkg:pypi/msgspec@0.18.1"
+    referenceLocator: "pkg:pypi/msgspec@0.18.2"
     referenceType: "purl"
   filesAnalyzed: false
   licenseConcluded: "NOASSERTION"
   licenseDeclared: "NOASSERTION"
   name: "msgspec"
   primaryPackagePurpose: "LIBRARY"
-  versionInfo: "0.18.1"
-- SPDXID: "SPDXRef-5dbd3655-7847-4d55-8049-65286a2e49fb"
+  versionInfo: "0.18.2"
+- SPDXID: "SPDXRef-16530495-3a7a-4688-97e5-a4c6cbb49582"
   annotations:
-  - annotationDate: "2023-08-22T19:35:38Z"
+  - annotationDate: "2023-08-26T23:30:29Z"
     annotationType: "OTHER"
     annotator: "Tool: CycloneToSpdx"
     comment: "MISSING_CDX_PROPERTY:componentType=\"LIBRARY\""
@@ -57,7 +57,7 @@ packages:
 relationships:
 - spdxElementId: "SPDXRef-DOCUMENT"
   relationshipType: "DESCRIBES"
-  relatedSpdxElement: "SPDXRef-2119c96d-69f5-42c9-9d21-7e38d7b44f69"
+  relatedSpdxElement: "SPDXRef-0de0e031-9914-4cfb-a669-3a75c7c26a87"
 - spdxElementId: "SPDXRef-DOCUMENT"
   relationshipType: "DESCRIBES"
-  relatedSpdxElement: "SPDXRef-5dbd3655-7847-4d55-8049-65286a2e49fb"
+  relatedSpdxElement: "SPDXRef-16530495-3a7a-4688-97e5-a4c6cbb49582"
