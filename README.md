@@ -7,7 +7,7 @@ Explore (Finnish: tutkia) ticket system trees.
 Third party dependencies are documented in the folder [third-party](docs/third-party/README.md).
 
 [![version](https://img.shields.io/pypi/v/tutkia.svg?style=flat)](https://pypi.python.org/pypi/tutkia/)
-[![downloads](https://pepy.tech/badge/tutkia/month)](https://pepy.tech/project/tutkia)
+[![downloads](https://static.pepy.tech/badge/tutkia/month)](https://pepy.tech/project/tutkia)
 [![wheel](https://img.shields.io/pypi/wheel/tutkia.svg?style=flat)](https://pypi.python.org/pypi/tutkia/)
 [![supported-versions](https://img.shields.io/pypi/pyversions/tutkia.svg?style=flat)](https://pypi.python.org/pypi/tutkia/)
 [![supported-implementations](https://img.shields.io/pypi/implementation/tutkia.svg?style=flat)](https://pypi.python.org/pypi/tutkia/)
