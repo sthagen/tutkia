@@ -3,7 +3,7 @@ SPDXID: "SPDXRef-DOCUMENT"
 spdxVersion: "SPDX-2.3"
 creationInfo:
   comment: "Converted from CycloneDX spec version 1.4"
-  created: "2023-08-26T23:30:26Z"
+  created: "2023-08-27T20:18:03Z"
   creators:
   - "Tool: CycloneDX:cyclonedx-bom-3.11.2"
   - "Tool: CycloneDX:cyclonedx-python-lib-3.1.5"
@@ -12,15 +12,15 @@ creationInfo:
 name: "From-Cyclone-DX"
 dataLicense: "CC0-1.0"
 annotations:
-- annotationDate: "2023-08-26T23:30:29Z"
+- annotationDate: "2023-08-27T20:18:06Z"
   annotationType: "OTHER"
   annotator: "Tool: CycloneToSpdx"
   comment: "MISSING_CDX_PROPERTY:extensions={}"
-documentNamespace: "https://cyclonedx/0f12a5ef-1996-45f3-acd8-66de3407d4fd_1"
+documentNamespace: "https://cyclonedx/9995850b-2054-4138-8482-3b3806a7b0cc_1"
 packages:
-- SPDXID: "SPDXRef-0de0e031-9914-4cfb-a669-3a75c7c26a87"
+- SPDXID: "SPDXRef-c2a4abcf-034d-4834-bef8-0dcd4395db6b"
   annotations:
-  - annotationDate: "2023-08-26T23:30:29Z"
+  - annotationDate: "2023-08-27T20:18:06Z"
     annotationType: "OTHER"
     annotator: "Tool: CycloneToSpdx"
     comment: "MISSING_CDX_PROPERTY:componentType=\"LIBRARY\""
@@ -36,9 +36,9 @@ packages:
   name: "msgspec"
   primaryPackagePurpose: "LIBRARY"
   versionInfo: "0.18.2"
-- SPDXID: "SPDXRef-16530495-3a7a-4688-97e5-a4c6cbb49582"
+- SPDXID: "SPDXRef-b2e3bbd6-19fe-445a-ba79-adab7e1bc6f5"
   annotations:
-  - annotationDate: "2023-08-26T23:30:29Z"
+  - annotationDate: "2023-08-27T20:18:06Z"
     annotationType: "OTHER"
     annotator: "Tool: CycloneToSpdx"
     comment: "MISSING_CDX_PROPERTY:componentType=\"LIBRARY\""
@@ -46,18 +46,18 @@ packages:
   downloadLocation: "NOASSERTION"
   externalRefs:
   - referenceCategory: "PACKAGE-MANAGER"
-    referenceLocator: "pkg:pypi/atlassian-python-api@3.41.0"
+    referenceLocator: "pkg:pypi/atlassian-python-api@3.41.1"
     referenceType: "purl"
   filesAnalyzed: false
   licenseConcluded: "NOASSERTION"
   licenseDeclared: "NOASSERTION"
   name: "atlassian-python-api"
   primaryPackagePurpose: "LIBRARY"
-  versionInfo: "3.41.0"
+  versionInfo: "3.41.1"
 relationships:
 - spdxElementId: "SPDXRef-DOCUMENT"
   relationshipType: "DESCRIBES"
-  relatedSpdxElement: "SPDXRef-0de0e031-9914-4cfb-a669-3a75c7c26a87"
+  relatedSpdxElement: "SPDXRef-c2a4abcf-034d-4834-bef8-0dcd4395db6b"
 - spdxElementId: "SPDXRef-DOCUMENT"
   relationshipType: "DESCRIBES"
-  relatedSpdxElement: "SPDXRef-16530495-3a7a-4688-97e5-a4c6cbb49582"
+  relatedSpdxElement: "SPDXRef-b2e3bbd6-19fe-445a-ba79-adab7e1bc6f5"
