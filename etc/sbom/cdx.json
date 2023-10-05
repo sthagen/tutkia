@@ -2,10 +2,10 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.4.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.4",
-  "serialNumber": "urn:uuid:3b634908-b087-42d7-9255-ae3d4bc67b80",
+  "serialNumber": "urn:uuid:7d5cca64-e594-49fe-89af-e9858f9b868d",
   "version": 1,
   "metadata": {
-    "timestamp": "2023-10-03T17:59:44.524234+00:00",
+    "timestamp": "2023-10-05T14:06:41.286899+00:00",
     "tools": [
       {
         "vendor": "CycloneDX",
@@ -56,26 +56,26 @@
   "components": [
     {
       "type": "library",
-      "bom-ref": "a676bf6d-8a7c-4e75-9c45-73d70ef92dfa",
+      "bom-ref": "c77ba2ef-f538-4a31-a972-770735755583",
       "name": "atlassian-python-api",
       "version": "3.41.2",
       "purl": "pkg:pypi/atlassian-python-api@3.41.2"
     },
     {
       "type": "library",
-      "bom-ref": "681e2942-7dc2-493b-8f25-5283f3bc289a",
+      "bom-ref": "af2874e4-ff54-450f-b4f8-b0512d47c458",
       "name": "msgspec",
-      "version": "0.18.3",
-      "purl": "pkg:pypi/msgspec@0.18.3"
+      "version": "0.18.4",
+      "purl": "pkg:pypi/msgspec@0.18.4"
     }
   ],
   "dependencies": [
     {
-      "ref": "a676bf6d-8a7c-4e75-9c45-73d70ef92dfa",
+      "ref": "c77ba2ef-f538-4a31-a972-770735755583",
       "dependsOn": []
     },
     {
-      "ref": "681e2942-7dc2-493b-8f25-5283f3bc289a",
+      "ref": "af2874e4-ff54-450f-b4f8-b0512d47c458",
       "dependsOn": []
     }
   ]
