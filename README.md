@@ -3,6 +3,7 @@
 Explore (Finnish: tutkia) ticket system trees.
 
 [License: MIT](https://git.sr.ht/~sthagen/tutkia/tree/default/item/LICENSE)
+[Country of origin: Switzerland](https://git.sr.ht/~sthagen/tutkia/tree/default/item/COUNTRY-OF-ORIGIN)
 
 Third party dependencies are documented in the folder [third-party](docs/third-party/README.md).
 
