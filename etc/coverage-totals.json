@@ -1,7 +1,7 @@
 {
   "tutkia": {
-    "version": "7.3.2",
-    "timestamp": "2023-12-02T15:37:11.713388",
+    "coverage_tool_version": "7.3.2",
+    "timestamp": "2023-12-02 16:33:32 +00:00",
     "branch_coverage": false,
     "show_contexts": true,
     "covered_lines": 0,
@@ -9,6 +9,25 @@
     "percent_covered": 0,
     "percent_covered_display": "0.00",
     "missing_lines": 203,
-    "excluded_lines": 1
+    "excluded_lines": 1,
+    "node_id": "c79891e5-aabf-3a83-95b9-588edcd8327f",
+    "nfiles": 6,
+    "files": [
+      "tutkia/__init__.py",
+      "tutkia/api.py",
+      "tutkia/cli.py",
+      "tutkia/config.py",
+      "tutkia/query.py",
+      "tutkia/report.py"
+    ],
+    "blake3": "4bc2307720ae51ae2dcb0a233e613c929055e275d1a11513256f76efb3ab2f0e",
+    "blake2": "46048954986edd1aadffe3b3307aa1948355b17a7c9d4d943b54d8571cecc3d168231dc3bb203b6e9509c16778d9e1d1ec49984c3cf77c220921043caa168970",
+    "sha512": "26cdb4fdb975ccab799def172b28d99fb70f4b4236ec4bba1783825b88fb7a8ee3daab2dd0e778a0ccf05d3d08f673d530358afcd1941fc1976fea6191ede717",
+    "sha384": "c0c1d127bd00037fd3a5e461ac9603dfdc2da67da40975613b2fefb77bd3f4fa197c07364e661a2d19655ddcf541f629",
+    "sha256": "357a89184d6db0558db7f3247ace4dc722feaba4623b18db2603c14627ecd9e7",
+    "sha1": "024fb106b642f3e51f15c72228fa32fe25ac9758",
+    "md5": "010f7d56db6c2fcb21b655d77e6e181a",
+    "python_version": "3.10.12",
+    "entropy": 5.156545
   }
 }
