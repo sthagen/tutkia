@@ -1,18 +1,10 @@
 """Explore (Finnish: tutkia) ticket system trees. - command line interface."""
+
 import argparse
 import sys
 from typing import no_type_check
 
 import tutkia.api as api
-from tutkia import (
-    APP_NAME,
-    APP_VERSION,
-    ENCODING,
-    LOG_SEPARATOR,
-    QUIET,
-    TS_FORMAT_PAYLOADS,
-    log,
-)
 
 
 @no_type_check

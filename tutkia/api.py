@@ -1,20 +1,12 @@
 """Explore (Finnish: tutkia) ticket system trees. - application programming interface."""
+
 import argparse
 import inspect
 import os
 from typing import Union, no_type_check
 
 from atlassian import Jira  # type: ignore
-from tutkia import (
-    APP_ALIAS,
-    APP_NAME,
-    APP_VERSION,
-    ENCODING,
-    LOG_SEPARATOR,
-    QUIET,
-    TS_FORMAT_PAYLOADS,
-    log,
-)
+from tutkia import APP_ALIAS
 
 COMMA = ','
 FIELDS = 'fields'
