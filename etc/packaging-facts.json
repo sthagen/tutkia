@@ -20,6 +20,7 @@
       "last_month": -1,
       "last_week": -1
     },
+    "dynamic": null,
     "home_page": "",
     "keywords": "developer-tools,devops",
     "license": "",
@@ -36,6 +37,7 @@
       "Source-Code": "https://git.sr.ht/~sthagen/tutkia",
       "Test-Coverage": "https://codes.dilettant.life/coverage/tutkia"
     },
+    "provides_extra": null,
     "release_url": "https://pypi.org/project/tutkia/2023.2.18/",
     "requires_dist": [
       "atlassian-python-api (>=3.33.0)",
