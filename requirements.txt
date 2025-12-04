@@ -1,2 +1,2 @@
-atlassian-python-api==3.41.4
-msgspec==0.18.5
+atlassian-python-api==4.0.7
+msgspec==0.20.0
